@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site educacional sobre sustentabilidade e agricultura orgânica." />
+  <title>Sustentabilidade e Orgânicos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#inicio" class="logo" aria-label="Sustentabilidade e Orgânicos – Início">
+        <span class="logo-icon" aria-hidden="true">🌿</span>
+        <span class="logo-text">Sustentabilidade<br><em>& Orgânicos</em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#agricultura">Agricultura</a></li>
+          <li><a href="#praticas">Práticas</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a href="#dicas">Dicas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-circle c1"></div>
+        <div class="hero-circle c2"></div>
+        <div class="hero-circle c3"></div>
+        <div class="leaf-decor l1" aria-hidden="true">🌱</div>
+        <div class="leaf-decor l2" aria-hidden="true">🍃</div>
+        <div class="leaf-decor l3" aria-hidden="true">🌾</div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">Educação Ambiental</p>
+        <h1 id="hero-title" class="hero-title reveal">
+          Cultivar com<br><span class="accent">sabedoria</span><br>é cuidar do futuro.
+        </h1>
+        <p class="hero-desc reveal">
+          A agricultura orgânica e as práticas sustentáveis são caminhos reais para
+          um planeta mais saudável, alimentos mais nutritivos e comunidades mais prósperas.
+        </p>
+        <a href="#agricultura" class="btn-primary reveal" aria-label="Explorar o conteúdo do site">
+          Explorar Conteúdo <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== O QUE É AGRICULTURA ORGÂNICA ===== -->
+    <section id="agricultura" class="section" aria-labelledby="agri-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Fundamentos</span>
+          <h2 id="agri-title">O que é Agricultura Orgânica?</h2>
+          <p class="section-intro">
+            A agricultura orgânica é um sistema de produção que busca harmonia com a natureza,
+            excluindo agrotóxicos sintéticos e priorizando o equilíbrio dos ecossistemas.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card reveal" tabindex="0">
+            <div class="card-icon" aria-hidden="true">🚫🧪</div>
+            <h3>Sem Agrotóxicos</h3>
+            <p>Produção livre de pesticidas e herbicidas sintéticos, protegendo a saúde humana e o solo.</p>
+          </article>
+          <article class="card reveal" tabindex="0">
+            <div class="card-icon" aria-hidden="true">🌍</div>
+            <h3>Solo Vivo</h3>
+            <p>O solo é tratado como um organismo vivo, rico em micro-organismos benéficos que nutrem as plantas naturalmente.</p>
+          </article>
+          <article class="card reveal" tabindex="0">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Comércio Justo</h3>
+            <p>Valoriza o trabalho dos agricultores, promovendo renda justa e desenvolvimento das comunidades rurais.</p>
+          </article>
+          <article class="card reveal" tabindex="0">
+            <div class="card-icon" aria-hidden="true">🧬</div>
+            <h3>Sem Transgênicos</h3>
+            <p>Respeita a integridade genética das sementes, preservando variedades tradicionais e a biodiversidade agrícola.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRÁTICAS SUSTENTÁVEIS ===== -->
+    <section id="praticas" class="section section-alt" aria-labelledby="praticas-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Métodos</span>
+          <h2 id="praticas-title">Práticas Sustentáveis</h2>
+          <p class="section-intro">Técnicas simples e eficazes que regeneram o ambiente e aumentam a produtividade a longo prazo.</p>
+        </div>
+
+        <div class="praticas-grid">
+
+          <article class="pratica-card reveal" tabindex="0">
+            <div class="pratica-num" aria-hidden="true">01</div>
+            <div class="pratica-emoji" aria-hidden="true">♻️</div>
+            <h3>Compostagem</h3>
+            <p>
+              Restos orgânicos como cascas, folhas e resíduos de cozinha são transformados em
+              adubo rico em nutrientes. Reduz o lixo doméstico e nutre o solo sem custo.
+            </p>
+            <ul class="pratica-bullets">
+              <li>Reduz até 40% do lixo doméstico</li>
+              <li>Produz adubo natural de alta qualidade</li>
+              <li>Pode ser feita em apartamentos</li>
+            </ul>
+          </article>
+
+          <article class="pratica-card reveal" tabindex="0">
+            <div class="pratica-num" aria-hidden="true">02</div>
+            <div class="pratica-emoji" aria-hidden="true">🔄</div>
+            <h3>Rotação de Culturas</h3>
+            <p>
+              Alternar diferentes culturas na mesma área ao longo das estações equilibra os
+              nutrientes do solo e quebra ciclos de pragas e doenças naturalmente.
+            </p>
+            <ul class="pratica-bullets">
+              <li>Evita esgotamento do solo</li>
+              <li>Reduz pragas sem agrotóxicos</li>
+              <li>Aumenta a produtividade</li>
+            </ul>
+          </article>
+
+          <article class="pratica-card reveal" tabindex="0">
+            <div class="pratica-num" aria-hidden="true">03</div>
+            <div class="pratica-emoji" aria-hidden="true">💧</div>
+            <h3>Uso Consciente da Água</h3>
+            <p>
+              Técnicas como irrigação por gotejamento, captação de água da chuva e mulching
+              reduzem drasticamente o consumo hídrico na produção de alimentos.
+            </p>
+            <ul class="pratica-bullets">
+              <li>Economia de até 70% de água</li>
+              <li>Reduz erosão do solo</li>
+              <li>Melhora qualidade da produção</li>
+            </ul>
+          </article>
+
+          <article class="pratica-card reveal" tabindex="0">
+            <div class="pratica-num" aria-hidden="true">04</div>
+            <div class="pratica-emoji" aria-hidden="true">🦋</div>
+            <h3>Preservação da Biodiversidade</h3>
+            <p>
+              Manter variedades nativas, corredores ecológicos e áreas de vegetação natural
+              garante o equilíbrio dos ecossistemas e a resiliência da produção agrícola.
+            </p>
+            <ul class="pratica-bullets">
+              <li>Atrai polinizadores essenciais</li>
+              <li>Controle natural de pragas</li>
+              <li>Protege espécies ameaçadas</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BENEFÍCIOS PARA O MEIO AMBIENTE ===== -->
+    <section id="beneficios" class="section" aria-labelledby="ben-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Impacto</span>
+          <h2 id="ben-title">Benefícios para o Meio Ambiente</h2>
+          <p class="section-intro">Cada escolha sustentável gera ondas positivas que se expandem pelo planeta.</p>
+        </div>
+
+        <div class="beneficios-list">
+          <div class="beneficio-item reveal" tabindex="0">
+            <div class="ben-bar"><span class="ben-fill" data-width="88"></span></div>
+            <div class="ben-info">
+              <span class="ben-icon" aria-hidden="true">🌡️</span>
+              <div>
+                <strong>Redução de Emissões de CO₂</strong>
+                <p>Solos saudáveis sequestram carbono, contribuindo diretamente para o combate às mudanças climáticas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="beneficio-item reveal" tabindex="0">
+            <div class="ben-bar"><span class="ben-fill" data-width="75"></span></div>
+            <div class="ben-info">
+              <span class="ben-icon" aria-hidden="true">💦</span>
+              <div>
+                <strong>Proteção dos Recursos Hídricos</strong>
+                <p>Sem agrotóxicos nos lençóis freáticos, a água é mais limpa para todos os seres vivos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="beneficio-item reveal" tabindex="0">
+            <div class="ben-bar"><span class="ben-fill" data-width="92"></span></div>
+            <div class="ben-info">
+              <span class="ben-icon" aria-hidden="true">🐝</span>
+              <div>
+                <strong>Preservação de Polinizadores</strong>
+                <p>Abelhas e borboletas são protegidos, garantindo a reprodução de 75% das plantas cultivadas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="beneficio-item reveal" tabindex="0">
+            <div class="ben-bar"><span class="ben-fill" data-width="80"></span></div>
+            <div class="ben-info">
+              <span class="ben-icon" aria-hidden="true">🌲</span>
+              <div>
+                <strong>Prevenção do Desmatamento</strong>
+                <p>Práticas regenerativas tornam o solo mais produtivo, reduzindo a pressão sobre florestas nativas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="beneficio-item reveal" tabindex="0">
+            <div class="ben-bar"><span class="ben-fill" data-width="70"></span></div>
+            <div class="ben-info">
+              <span class="ben-icon" aria-hidden="true">🌊</span>
+              <div>
+                <strong>Redução da Erosão</strong>
+                <p>Cobertura vegetal e técnicas de conservação evitam que o solo seja carregado pelas chuvas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== QUIZ ===== -->
+    <section id="quiz" class="section section-alt" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Interativo</span>
+          <h2 id="quiz-title">Quiz de Sustentabilidade</h2>
+          <p class="section-intro">Teste seus conhecimentos! 5 perguntas rápidas sobre práticas sustentáveis.</p>
+        </div>
+
+        <div class="quiz-wrapper reveal" role="region" aria-label="Quiz de sustentabilidade">
+          <!-- Conteúdo gerado pelo JavaScript -->
+          <div id="quiz-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DICAS PARA O DIA A DIA ===== -->
+    <section id="dicas" class="section" aria-labelledby="dicas-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Ação</span>
+          <h2 id="dicas-title">Dicas para o Dia a Dia</h2>
+          <p class="section-intro">Pequenas atitudes que qualquer pessoa pode adotar agora mesmo.</p>
+        </div>
+
+        <div class="dicas-grid">
+          <div class="dica-card reveal" tabindex="0">
+            <span class="dica-icon" aria-hidden="true">🛍️</span>
+            <h3>Sacola Reutilizável</h3>
+            <p>Carregue sempre uma sacola de pano ou reutilizável. Evita centenas de sacolas plásticas por ano.</p>
+          </div>
+          <div class="dica-card reveal" tabindex="0">
+            <span class="dica-icon" aria-hidden="true">🥗</span>
+            <h3>Consuma Local e Orgânico</h3>
+            <p>Prefira feiras de produtores locais. Reduz o transporte, apoia agricultores e você come mais fresco.</p>
+          </div>
+          <div class="dica-card reveal" tabindex="0">
+            <span class="dica-icon" aria-hidden="true">🚿</span>
+            <h3>Banhos mais Curtos</h3>
+            <p>Reduzir 2 minutos no banho economiza até 24 litros de água. Pequeno esforço, grande impacto.</p>
+          </div>
+          <div class="dica-card reveal" tabindex="0">
+            <span class="dica-icon" aria-hidden="true">🌱</span>
+            <h3>Plante em Casa</h3>
+            <p>Um vaso de ervas na janela já é um ato de sustentabilidade. Temperos frescos sem embalagem!</p>
+          </div>
+          <div class="dica-card reveal" tabindex="0">
+            <span class="dica-icon" aria-hidden="true">🔌</span>
+            <h3>Desligue o que não usa</h3>
+            <p>Aparelhos em standby consomem energia. Desligue da tomada e economize na conta e no planeta.</p>
+          </div>
+          <div class="dica-card reveal" tabindex="0">
+            <span class="dica-icon" aria-hidden="true">🚲</span>
+            <h3>Pedale ou caminhe</h3>
+            <p>Para distâncias curtas, prefira bicicleta ou a pé. Faz bem à saúde e zero emissões de carbono.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-logo" aria-label="Logo Sustentabilidade e Orgânicos">
+        <span aria-hidden="true">🌿</span>
+        <span>Sustentabilidade & Orgânicos</span>
+      </div>
+      <p class="footer-msg">
+        "A Terra não é uma herança dos nossos pais — é um empréstimo dos nossos filhos."<br>
+        <em>Cuide agora. O futuro agradece.</em>
+      </p>
+      <p class="footer-copy">
+        &copy; <span id="footer-year"></span> Sustentabilidade e Orgânicos &mdash; Educação Ambiental
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
